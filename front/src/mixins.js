@@ -7,7 +7,7 @@ else axios.defaults.baseURL = "http://132.226.173.98:8080";
 axios.defaults.baseURL = "http://132.226.173.98:8080";
 axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
-axios.defaults.timeout = 10000;
+axios.defaults.timeout = 30000;
 
 export default {
     methods: {
